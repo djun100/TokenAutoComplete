@@ -6,12 +6,17 @@
 
     <com.tokenautocomplete.ContactsCompletionView
         android:id="@+id/searchView"
+        android:dropDownWidth="match_parent"
+        android:dropDownVerticalOffset="3dp"
+        android:popupBackground="@android:color/white"
+        android:background="@null"
+        android:lineSpacingMultiplier="1.2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/email_prompt"
         android:imeOptions="actionDone"
-        android:textColor="@android:color/darker_gray"
-        android:textSize="19sp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
         android:nextFocusDown="@+id/editText"
         android:inputType="text|textNoSuggestions|textMultiLine"
         android:focusableInTouchMode="true" />

@@ -23,7 +23,7 @@ public class TokenActivity extends Activity implements TokenCompleteTextView.Tok
         setContentView(R.layout.activity_main);
 
         people = new Person[]{
-                new Person("Marshall Weir", "marshall@example.com"),
+                new Person("Marshall Weir", "marshallexample.com"),
                 new Person("Margaret Smith", "margaret@example.com"),
                 new Person("Max Jordan", "max@example.com"),
                 new Person("Meg Peterson", "meg@example.com"),
@@ -61,9 +61,8 @@ public class TokenActivity extends Activity implements TokenCompleteTextView.Tok
         completionView.setTokenListener(this);
         completionView.setTokenClickStyle(TokenCompleteTextView.TokenClickStyle.Select);
 
-
         if (savedInstanceState == null) {
-            completionView.setPrefix("To: ");
+            completionView.setPrefix("收件人: ");
             completionView.addObject(people[0]);
             completionView.addObject(people[1]);
         }

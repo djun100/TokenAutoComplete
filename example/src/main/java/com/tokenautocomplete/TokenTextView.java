@@ -2,9 +2,6 @@ package com.tokenautocomplete;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
@@ -27,6 +24,6 @@ public class TokenTextView extends TextView {
     @Override
     public void setSelected(boolean selected) {
         super.setSelected(selected);
-        setCompoundDrawablesWithIntrinsicBounds(0, 0, selected ? R.drawable.close_x : 0, 0);
+//        setCompoundDrawablesWithIntrinsicBounds(0, 0, selected ? R.drawable.close_x : 0, 0);
     }
 }

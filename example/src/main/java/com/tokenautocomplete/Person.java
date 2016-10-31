@@ -12,9 +12,9 @@ public class Person implements Serializable{
     private String name;
     private String email;
 
-    public Person(String n, String e) {
-        name = n;
-        email = e;
+    public Person(String aName, String aEmail) {
+        name = aName;
+        email = aEmail;
     }
 
     public String getName() { return name; }

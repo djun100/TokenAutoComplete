@@ -6,7 +6,7 @@
     android:id="@+id/name"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/token_background"
+    android:background="@drawable/token_background_illegal"
     android:textColor="@android:color/white"
     android:textSize="14sp"
     android:maxLines="1"
